@@ -1,0 +1,52 @@
+<body>
+  <h1>Profile</h1>
+
+  <form class="form-horizontal" method="POST" action="/profile/edit">
+
+    <div class="form-group">
+      <label for="email" class="col-md-2 control-label">Email</label>
+      <div class="col-md-10">
+        <input type="email" class="form-control" name="email" placeholder="first.last@example.com">
+      </div>
+    </div>
+    
+    <div class="form-group">
+      <label for="password" class="col-md-2 control-label">Password</label>
+      <div class="col-md-10">
+        <input type="password" class="form-control" name="password" placeholder="Password">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="gender" class="col-md-2 control-label">Gender</label>
+      <div class="col-md-10">
+        <select name="dropdown">
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="firstname" class="col-md-2 control-label">First Name</label>
+      <div class="col-md-10">
+        <input type="text" class="form-control" name="firstname" placeholder="First Name">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="lastname" class="col-md-2 control-label">Last Name</label>
+      <div class="col-md-10">
+        <input type="text" class="form-control" name="lastname" placeholder="Last Name">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div class="col-md-offset-1 col-md-10">
+        <button type="submit" class="btn btn-danger">Update</button>
+      </div>
+    </div>
+
+  </form>
+</body>
